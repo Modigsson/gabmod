@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="26px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Info_bar/Information_oöppnad" transform="translate(-35.000000, -30.000000)" fill="#E3004A">
+            <g id="Icon/triangle" transform="translate(35.000000, 30.000000)">
+                <path d="M0,25.1470588 L28.5,25.1470588 L14.25,0 L0,25.1470588 L0,25.1470588 Z M15.9264706,21.7941176 L12.5735294,21.7941176 L12.5735294,18.4411765 L15.9264706,18.4411765 L15.9264706,21.7941176 L15.9264706,21.7941176 Z M15.9264706,16.7647059 L12.5735294,16.7647059 L12.5735294,10.0588235 L15.9264706,10.0588235 L15.9264706,16.7647059 L15.9264706,16.7647059 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

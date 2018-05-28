@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>My_icon/grey_skifnyckel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.5069372,2.62166915 C10.3533657,0.46809772 7.12836574,0.028812006 4.5355086,1.29309772 L8.42479431,5.18238343 C8.84265145,5.60024058 8.84265145,6.27524058 8.42479431,6.69309772 L6.72122288,8.39666915 C6.30336574,8.82524058 5.62836574,8.82524058 5.2105086,8.39666915 L1.32122288,4.50738343 C0.0676514542,7.11095486 0.506937168,10.3145263 2.6605086,12.4680977 C4.65336574,14.4609549 7.56765145,14.9859549 10.0426515,14.053812 L18.5712229,22.5823834 C19.6747943,23.6859549 21.4533657,23.6859549 22.5462229,22.5823834 C23.6497943,21.478812 23.6497943,19.7002406 22.5462229,18.6073834 L14.0605086,10.1109549 C15.0462229,7.60381201 14.5319372,4.64666915 12.5069372,2.62166915 Z" id="path-1"></path>
+    </defs>
+    <g id="My_icon/grey_skifnyckel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/action/build_24px">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g fill-rule="nonzero"></g>
+            <g id="↳-Color" mask="url(#mask-2)" fill="#A6A6A6">
+                <g transform="translate(-0.857143, -0.857143)" id="Rectangle">
+                    <rect x="0" y="0" width="25.7142857" height="25.7142857"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

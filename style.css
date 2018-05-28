@@ -1,0 +1,599 @@
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245,245,245,1);
+  }
+
+  .container {
+    width: 100%;
+    height: 88%;
+    padding-top: 12%;
+  }
+
+  .createuser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .create-user {
+      font-size: 20px;
+      margin-top: 17px;
+      width: 220.83px;
+      height: 28px;
+      color: rgba(0,0,0,0.91);
+  }
+
+  .create-user p {
+    font-family: Chronicle Disp Cond;
+    font-size: 24px;
+    color: rgba(0,0,0,0.91);
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+
+  }
+
+  .logo {
+    background-image: url("./images/AH_LOGO.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 87%;
+    height: 75%;
+  }
+
+  .logo-text p {
+    margin: 0;
+    font-size: 1.4em;
+  }
+
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 119px; */
+  }
+
+  header {
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(96,174,26,1);
+    width: 100%;
+    height: 12%;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.24);
+  }
+
+  header p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+    margin-bottom: 5%;
+  }
+
+  .header-text p {
+    font-family: Chronicle Disp Cond;
+    font-size: 24px;
+    color: rgba(0,0,0,0.91);
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    height: 8.7%;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .grey-hem {
+    display: block;
+    width: 25%;
+    height: 50%;
+    margin-left: 8%;
+    margin-top: 2%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .footer-text {
+    margin: 0;
+    color: rgba(166,166,166,1);
+  }
+
+  a.link {
+    text-decoration: none;
+  }
+
+  .grey-info {
+    width: 25%;
+    height: 50%;
+    margin-left: 8%;
+    margin-top: 2%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .grey-skiftnyckel {
+    width: 25%;
+    height: 50%;
+    margin-left: 8%;
+    margin-top: 2%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .grey-brev {
+    width: 25%;
+    height: 50%;
+    margin-left: 8%;
+    margin-top: 2%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .test {
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+  }
+
+  .make-issue {
+
+  }
+
+  .input-fields {
+    margin-top: 10%;
+  }
+
+  .input-field {
+      margin-left: 16px;
+      margin-top: 16px;
+      width: 80%;
+      height: 58px;
+      border: none;
+      background-color: rgba(255,255,255,1);
+      box-shadow: 0 4px 2px -2px gray;
+  }
+
+  input.input-field {
+      font-size: 16px;
+      line-height: 20px;
+      font-family: Roboto;
+      color: rgba(0,0,0,0.54);
+      padding: 0 10px 0 28px;
+  }
+
+  .terms-container {
+      display: flex;
+      width: 90%;
+  }
+  .accept-terms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    height: 40px;
+    width: 100%;
+  }
+
+  .yes-no {
+    width: 40px;
+    height: 24px;
+    background-color: red;
+  }
+
+  .create-user-button {
+    margin-top: 36px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    font-family: Roboto;
+    letter-spacing: 1.5px;
+    background-color: rgba(110,200,30,1);
+    color: rgba(255,255,255,1)
+  }
+
+  .input-box {
+    margin-left: 16px;
+    width: 80%;
+    height: 58px;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px grey;
+  }
+
+  .input-button {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(110,200,30,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .input-button-issue {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(0,148,187,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .input-button-contact {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(0,163,136,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  input.input-box {
+    padding: 0 10px 0 29px;
+  }
+
+  .already-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .already-user p {
+    font-size: 19px;
+  }
+
+  .change-camp {
+    margin-left: 4%;
+    font-family: Chronicle Disp Cond;
+    font-size: 24px;
+  }
+
+  .change-language {
+    font-size: 24px;
+    font-family: Chronicle Disp Cond;
+    margin-left: 4%;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: .5px solid grey;
+    width: 100%;
+    height: 12.74%;
+    background-color: rgba(245,245,245,1);
+  }
+
+  .active {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: .5px solid grey;
+    width: 100%;
+    height: 12.74%;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .h3-time {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+  }
+
+  .event-text {
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  p.event-text {
+    margin-left: 15%;
+  }
+
+  h3.event-text {
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  h3.event-text-active {
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  time {
+    margin-right: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .active-time {
+    margin-right: 5px;
+    color: rgba(110,200,30,1);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+  }
+
+  .info-logo-container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+
+  .information-h1 {
+    opacity: 0.85;
+    font-family: "Chronicle Disp Cond";
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: 0.6%;
+  }
+
+  .information-p {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-left: 15px;
+    width: 83.47%;
+  }
+
+  .information-logo {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-time {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1.5px solid black;
+  }
+
+  .contact-info-container {
+    margin-top: 4.5%;
+    border-bottom: 1.5px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 4.5%;
+  }
+
+  p.contact-info {
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+
+  .send-email-button {
+    width: 91.47%;
+    height: 8.4%;
+    background-color: rgba(110,200,30,1);
+    border: none;
+    margin-top: 8%;
+    margin-left: 15px;
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+
+  .contact-us-top-container {
+    padding-left: 4.5%;
+    background-color: rgba(245,245,245,1);
+  }
+
+  .contact-us-h1 {
+    margin: 0;
+    padding-top: 6%;
+    padding-bottom: 1%;
+    color: rgba(0,0,0,0.91);
+    font-family: "Chronicle Disp Cond";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+  }
+
+  .contact-us-p {
+    margin: 0;
+    margin-top: 1.5%;
+    padding-bottom: 3.6%;
+    color: rgba(0,0,0,0.81);
+    font-family: "Chronicle Text G1";
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .contact-number {
+    margin-bottom: 5%;
+    line-height: 19px;
+    font-size: 16px;
+    font-family: "Chronicle Text G1";
+    color: rgba(0,163,136,1);
+  }
+
+  .contact-person-container {
+    padding-left: 4.5%;
+    height: 28.34%;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .contact-person-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    font-family: "Chronicle Deck Cond";
+    color: rgba(0,0,0,0.91);
+    opacity: 0.85;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    margin: 0;
+  }
+
+  .contact-person-info {
+    margin: 0;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "Chronicle Text G1";
+    color: rgba(0,0,0,0.81);
+  }
+
+  .contact-person-button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-button {
+    width: 41.33%;
+    height: 7.05%;
+    background-color: rgba(0,163,136,1);
+  }
+
+  .social-media {
+    padding-left: 4.5%;
+  }
+
+  .make-errand-p {
+    font-family: Chronicle Disp Cond;
+    opacity: 0.85;
+    color: rgba(0,0,0,0.91);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-left: 15px;
+  }
+
+  .errand-priority-p {
+    color: rgba(0,148,187,1);
+    font-family: "Chronicle Text G1";
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 16px;
+  }
+
+  .your-errand-p {
+    color: rgba(0,0,0,0.91);
+    font-family: "Chronicle Deck Cond";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 16px;
+  }
+
+  .errand-textarea {
+    margin-left: 16px;
+    margin-top: 6%;
+    border: none;
+  }
+
+  .take-upload-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+  }
+
+  .take-picture-button {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 16px;
+    color: rgba(255,255,255,1);
+    padding: 0;
+    margin-top: 4%;
+    margin-right: 5px;
+    height: 80%;
+    width: 40%;
+    border-radius: 2px;
+    background-color: rgba(110,200,30,1);
+  }
+
+  .location-p {
+    margin-left: 16px;
+    font-family: "Chronicle Deck Cond";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0,0,0,0.91);
+  }
+
+  .errand-input-box {
+    margin-bottom: 5%;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .send-button-container {
+    width: 100%;
+    height: 10%;
+  }
+
+  .send-errand-button {
+    margin-left: 16px;
+    width: 90%;
+    height: 85%;
+    background-color: rgba(110,200,30,1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 16px;
+  }

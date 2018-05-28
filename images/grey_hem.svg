@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>My_icon/grey_hem Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.55284049,20.111944 L9.55284049,13.7032482 L14.4417294,13.7032482 L14.4417294,20.111944 C14.4417294,20.8169005 14.9917294,21.3936831 15.6639516,21.3936831 L19.3306183,21.3936831 C20.0028405,21.3936831 20.5528405,20.8169005 20.5528405,20.111944 L20.5528405,11.1397698 L22.6306183,11.1397698 C23.1928405,11.1397698 23.4617294,10.4091785 23.0339516,10.0246568 L12.8161738,0.373160879 C12.3517294,-0.0626304363 11.6428405,-0.0626304363 11.178396,0.373160879 L0.960618266,10.0246568 C0.54506271,10.4091785 0.801729377,11.1397698 1.3639516,11.1397698 L3.44172938,11.1397698 L3.44172938,20.111944 C3.44172938,20.8169005 3.99172938,21.3936831 4.6639516,21.3936831 L8.33061827,21.3936831 C9.00284049,21.3936831 9.55284049,20.8169005 9.55284049,20.111944 Z" id="path-1"></path>
+    </defs>
+    <g id="My_icon/grey_hem-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/action/home_24px">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g fill-rule="nonzero"></g>
+            <g id="↳-Color" mask="url(#mask-2)" fill="#A6A6A6">
+                <g transform="translate(-2.666667, -4.660870)" id="Rectangle">
+                    <rect x="0" y="0" width="29.3333333" height="30.7617399"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
