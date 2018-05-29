@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 45%;
+    height: 37%;
 
   }
 
@@ -77,14 +77,38 @@
   }
 
   header p {
-    margin: 0;
+    margin-right: 20%;
+    margin-left: 5%;
     padding: 0;
+  }
+
+  .header-arrow-index {
+    margin-left: 5%;
+  }
+
+  .header-arrow {
+    margin-left: 5%;
+  }
+
+  .dots{
+    margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .dot{
+  margin: 2px;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: white;
   }
 
   .header-text {
     display: flex;
     justify-content: center;
-    margin-top: 9%;
     margin-bottom: 5%;
   }
 
@@ -189,12 +213,6 @@
     width: 100%;
   }
 
-  .yes-no {
-    width: 40px;
-    height: 24px;
-    background-color: red;
-  }
-
   .create-user-button {
     margin-top: 36px;
     width: 90%;
@@ -284,6 +302,29 @@
     font-size: 24px;
     font-family: Chronicle Disp Cond;
     margin-left: 4%;
+  }
+
+  .change-logout {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+  }
+
+  .change-logout p {
+    margin-top: 1%;
+    color: rgba(0,148,187,1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+  }
+
+  .change-logout a {
+    text-decoration: none;
   }
 
   .events {
@@ -412,6 +453,8 @@
     padding-top: 5px;
   }
 
+  .
+
   .send-email-button {
     width: 91.47%;
     height: 8.4%;
@@ -429,6 +472,7 @@
   .contact-us-top-container {
     padding-left: 4.5%;
     background-color: rgba(245,245,245,1);
+    margin-bottom: 5%;
   }
 
   .contact-us-h1 {
@@ -461,8 +505,7 @@
   }
 
   .contact-person-container {
-    padding-left: 4.5%;
-    height: 28.34%;
+    height: 33%;
     background-color: rgba(255,255,255,1);
     box-shadow: 0px 4px 0px -2px lightgrey;
   }
@@ -493,16 +536,41 @@
   .contact-person-button-container {
     display: flex;
     justify-content: space-evenly;
+    height: 25%;
+    margin-right: 5%;
   }
 
   .contact-button {
-    width: 41.33%;
-    height: 7.05%;
+    border: none;
+    margin-left: 16px;
+    width: 90%;
+    height: 85%;
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 16px;
     background-color: rgba(0,163,136,1);
   }
 
   .social-media {
-    padding-left: 4.5%;
+    height: 5%;
+    width: 80%;
+  }
+
+  .social-media-icon-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .follow-us-on-p {
+    color: rgba(0,0,0,0.81);
+    font-family: "Chronicle Text G1";
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 5%;
   }
 
   .make-errand-p {
@@ -597,3 +665,142 @@
     letter-spacing: 2px;
     line-height: 16px;
   }
+
+  .thankyou-logo-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .thankyou-ahus-logo {
+    margin-top: 5%;
+    background-image: url("./images/AH_LOGO.svg");
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .thankyou-p {
+    opacity: 0.85;
+    color: rgba(0,0,0,0.91);
+    font-family: "Chronicle Disp Cond";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .we-have-recived-p {
+    color: rgba(0,0,0,0.81);
+    font-family: "Chronicle Text G1";
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 5%;
+    margin-right: 9%;
+    margin-top: 3%;
+  }
+
+  .thankyou-buttons-container {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .make-new-errand {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(110,200,30,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .back-to-frontpage {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 90%;
+    height: 58px;
+    border: none;
+    background-color: rgba(0,148,187,1);
+    color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 0px -2px lightgrey;
+  }
+
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2ECC71;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+span.slider.round {
+  width: 80%;
+  height: 60%;
+  margin-top: 30%;
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  height: 20px;
+  width: 18px;
+  bottom: 0;
+}
