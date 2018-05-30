@@ -384,6 +384,11 @@
       justify-content: space-between;
   }
 
+  .h3-time-triangle a {
+    text-decoration: none;
+    color: black;
+  }
+
   .event-text {
     font-family: Roboto;
     font-size: 16px;
@@ -485,8 +490,6 @@
     padding-left: 15px;
     padding-top: 5px;
   }
-
-  .
 
   .send-email-button {
     width: 91.47%;
