@@ -36,6 +36,13 @@
     color: rgba(0,0,0,0.91);
   }
 
+  .accept-terms a {
+    color: rgba(0,148,187,1);
+    font-family: Chronicle Text G1;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   .logo-container {
     display: flex;
     justify-content: center;
@@ -766,7 +773,6 @@
   content: "";
   height: 26px;
   width: 26px;
-  left: 4px;
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
@@ -787,11 +793,13 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-
+label.switch {
+  height: 34px;
+  width: 55px;
+}
 span.slider.round {
   width: 80%;
-  height: 60%;
+  height: 50%;
   margin-top: 30%;
 }
 .slider.round {
@@ -801,6 +809,6 @@ span.slider.round {
 .slider.round:before {
   border-radius: 50%;
   height: 20px;
-  width: 18px;
+  width: 20px;
   bottom: 0;
 }
