@@ -56,7 +56,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 87%;
-    height: 75%;
+    height: 85%;
   }
 
   .logo-text p {
@@ -590,6 +590,10 @@
     margin-left: 15px;
   }
 
+  .errand-input-box {
+    padding-left: 15px;
+  }
+
   .errand-priority-p {
     color: rgba(0,148,187,1);
     font-family: "Chronicle Text G1";
@@ -811,4 +815,58 @@ span.slider.round {
   height: 20px;
   width: 20px;
   bottom: 0;
+}
+
+/* -------------- */
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 80%;
+    height: 58px;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 4px 2px -2px gray;
+}
+.onclick-menu:before {
+    content: "Byt campus!";
+}
+.onclick-menu:focus .onclick-menu-content {
+    display: block;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: 16px;
+    /* width: 100%; */
+    height: 58px;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 4px 2px -2px gray;
+    list-style: none;
+    border: none;
+}
+
+.ul-content {
+  text-decoration: none;
+  width: 100%;
+  height: 58px;
+  border: none;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 0 4px 2px -2px gray;
+  list-style: none;
+  border: none;
+}
+
+ul.onclick-menu-content {
+  padding: 0;
+  width: 100%;
+}
+
+.dropdown-button {
+  border: none;
+  background-color: inherit;
 }
