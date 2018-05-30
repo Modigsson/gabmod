@@ -129,16 +129,18 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    height: 8.7%;
+    height: 60px;
     width: 100%;
+    padding-left: 15px;
     background-color: rgba(255,255,255,1);
   }
 
   .grey-hem {
+    display: flex;
+    justify-content: center;
     display: block;
-    width: 25%;
-    height: 50%;
-    margin-left: 8%;
+    width: 15%;
+    height: 100%;
     margin-top: 2%;
     background-color: rgba(255,255,255,1);
   }
@@ -148,31 +150,34 @@
     color: rgba(166,166,166,1);
   }
 
-  a.link {
+  .footer a {
     text-decoration: none;
   }
 
   .grey-info {
+    display: flex;
+    justify-content: center;
     width: 25%;
-    height: 50%;
-    margin-left: 8%;
+    height: 100%;
     margin-top: 2%;
     background-color: rgba(255,255,255,1);
   }
 
   .grey-skiftnyckel {
+    display: flex;
+    justify-content: center;
     width: 25%;
-    height: 50%;
-    margin-left: 8%;
+    height: 100%;
     margin-top: 2%;
     background-color: rgba(255,255,255,1);
   }
 
   .grey-brev {
+    display: flex;
+    justify-content: center;
     width: 25%;
-    height: 50%;
-    margin-left: 8%;
-    margin-top: 2%;
+    height: 100%;
+    margin-top: 3%;
     background-color: rgba(255,255,255,1);
   }
 
